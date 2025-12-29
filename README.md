@@ -52,7 +52,7 @@ If your router uses a different IP address or subnet, you must edit this value m
 
 ## Authentication Details
 
-The ZTE MF286D web interface does **not** accept a plain-text password.
+⚠ **Password must be storred in file ```/config/zte_password```**
 
 The script reproduces the exact client-side algorithm used in the web UI:
 
