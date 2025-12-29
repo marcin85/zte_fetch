@@ -112,7 +112,7 @@ The generated JSON can then be consumed using a REST or command_line sensor.
 ---
 
 ## Known Limitations
-
+- The script supports only one active session at a time.  If you are logged in elsewhere when the script starts, the existing session will be automatically logged out.
 - Script relies on undocumented ZTE endpoints (goform_*)
 - Firmware updates may change field names or authentication flow
 - Some fields may be empty when the router is not fully connected
