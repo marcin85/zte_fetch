@@ -40,6 +40,16 @@ Tested on Home Assistant OS and standard Linux distributions.
 
 ---
 
+## Router Address (Important)
+
+⚠ **The router IP address is currently hardcoded in the script.**
+
+By default, the script assumes the router is available at: ```http://192.168.32.1```
+
+If your router uses a different IP address or subnet, you must edit this value manually before running the script.
+
+---
+
 ## Authentication Details
 
 The ZTE MF286D web interface does **not** accept a plain-text password.
